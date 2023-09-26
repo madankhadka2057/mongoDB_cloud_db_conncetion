@@ -3,7 +3,7 @@ const app = express();
 const mongoose=require('mongoose')
 const User=require('./models/userModel');//!importing the model for data like name,email 
 const User2=require('./models/userModel2');
-dbUrl="mongodb+srv://khadkamadan205729:Gum9RnSLnIf2Kj9P@cluster0.kvkcmkb.mongodb.net/?retryWrites=true&w=majority"
+dbUrl="mongodb+srv://madankhadka2057:madankhadka@madan.ad13avb.mongodb.net/?retryWrites=true&w=majority"
 mongoose.connect(dbUrl).then(()=>{
     console.log("Connected Successfully")
 }).catch(()=>{
